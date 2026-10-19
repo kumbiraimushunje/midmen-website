@@ -32,9 +32,21 @@ step required — just open and edit). The footer is injected by
    submitting a form opens the visitor's email client with the message
    pre-filled instead, so nothing is lost — but that's a fallback, not the
    real flow.
+   - **Both sides need to get an email, not just MIDMEN.** The access
+     key's registered address is the one that receives the raw
+     submission ("notify MIDMEN") — make sure that's set to
+     `hello@midmen.co` once that mailbox exists (Web3Forms dashboard →
+     this form → recipient email). Separately, turn on **Auto Response
+     Email** (sometimes labelled Autoresponder) for the same form in the
+     dashboard and write the "Request received" confirmation copy there
+     — Web3Forms sends that one back to whatever the visitor typed into
+     the form's own `email` field ("notify the customer"). Both forms
+     already include an `email` field, so no code change is needed for
+     this — it's purely a Web3Forms dashboard setting.
 2. **Replace every placeholder:**
-   - `support@midmen.co` (footer, contact page, privacy/terms) — swap for
-     the real support inbox once it's set up on the domain.
+   - `hello@midmen.co` (footer, contact page, privacy/terms) is the
+     single address used for support, forms and general correspondence
+     — confirm the mailbox is actually live on the domain before launch.
    - `+263 78 123 4567` WhatsApp number (footer, contact page) — swap for
      the real MIDMEN WhatsApp Business number.
    - Instagram/Facebook URLs in the footer (`js/footer.js`) — point to the

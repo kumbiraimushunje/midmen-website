@@ -12,7 +12,7 @@
    email client with the message pre-filled, so nothing is lost.
 --------------------------------------------------------------- */
 const WEB3FORMS_ACCESS_KEY = "880031d5-f575-40c8-9ec0-177d38c5275f";
-const FALLBACK_EMAIL = "support@midmen.co";
+const FALLBACK_EMAIL = "hello@midmen.co";
 
 /* ---------------- Mobile nav ---------------- */
 document.addEventListener("DOMContentLoaded", () => {
