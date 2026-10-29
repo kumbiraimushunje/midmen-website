@@ -110,7 +110,7 @@ function initForms() {
       } catch (err) {
         if (statusEl) {
           statusEl.textContent =
-            "Something went wrong sending your request. Please try again, or WhatsApp us directly.";
+            "Something went wrong sending your request. Please try again, or email us directly at hello@midmen.co.";
           statusEl.classList.add("is-visible");
         }
         if (submitBtn) {

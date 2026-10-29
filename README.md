@@ -43,18 +43,26 @@ step required — just open and edit). The footer is injected by
      the form's own `email` field ("notify the customer"). Both forms
      already include an `email` field, so no code change is needed for
      this — it's purely a Web3Forms dashboard setting.
-2. **Replace every placeholder:**
+2. **Remaining items before public/paid traffic:**
    - `hello@midmen.co` (footer, contact page, privacy/terms) is the
      single address used for support, forms and general correspondence
      — confirm the mailbox is actually live on the domain before launch.
-   - `+263 78 123 4567` WhatsApp number (footer, contact page) — swap for
-     the real MIDMEN WhatsApp Business number.
-   - Instagram/Facebook URLs in the footer (`js/footer.js`) — point to the
-     real official accounts. Add the LinkedIn link when it exists (the
-     icon is already in place, currently a disabled placeholder).
-   - `[DATE]`, `[Insert registered entity name...]` and the other bracketed
-     placeholders in `privacy.html` / `terms.html` — have a lawyer finalise
-     this copy before launch, per the brief.
+   - WhatsApp was deliberately removed as a contact route (footer,
+     Contact page, error-fallback message) per the
+     `MIDMEN_Website_Corrections_and_Interim_Legal_Pages` brief: "do not
+     present an unverified WhatsApp number as an active contact route."
+     Add it back once a real MIDMEN WhatsApp Business number exists —
+     search the repo for the prior commit that removed it for the exact
+     markup to restore.
+   - Instagram, Facebook and LinkedIn in the footer (`js/footer.js`) are
+     the real, confirmed official accounts — done.
+   - Privacy Policy, Terms of Use and Cookie Notice are fully drafted
+     (no bracket placeholders remain) per the founder-provided interim
+     copy, but per that same document this is "an operational draft, not
+     a lawyer-approved legal opinion" — still needs actual legal/privacy
+     review before being treated as final, particularly the registered
+     entity name (section 1 of the Privacy Policy still says it "will be
+     displayed once verified against the company registration records").
 3. **Spam protection.** A honeypot field is built in (works with zero
    setup). For stronger protection, Web3Forms supports adding hCaptcha —
    see their dashboard once you have an account.
