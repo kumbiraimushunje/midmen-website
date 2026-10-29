@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a class="social-icon" href="https://www.instagram.com/midmen.co" target="_blank" rel="noopener" aria-label="MIDMEN on Instagram">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
             </a>
-            <a class="social-icon" href="https://facebook.com/midmenexecutionnetwork" target="_blank" rel="noopener" aria-label="MIDMEN on Facebook">
+            <a class="social-icon" href="https://www.facebook.com/share/1FPCFqv5xn/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="MIDMEN on Facebook">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg>
             </a>
             <a class="social-icon" href="https://www.linkedin.com/company/midmen-execution-network/" target="_blank" rel="noopener" aria-label="MIDMEN on LinkedIn">
