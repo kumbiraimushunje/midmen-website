@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a class="social-icon" href="https://facebook.com/midmenexecutionnetwork" target="_blank" rel="noopener" aria-label="MIDMEN on Facebook">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg>
             </a>
-            <a class="social-icon" href="#" aria-label="MIDMEN on LinkedIn (coming soon)" title="Coming soon">
+            <a class="social-icon" href="https://www.linkedin.com/company/midmen-execution-network/" target="_blank" rel="noopener" aria-label="MIDMEN on LinkedIn">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             </a>
           </div>
