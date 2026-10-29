@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="footer-tagline">People on Your Side.</p>
           <p style="font-size:0.85rem; max-width:280px;">MIDMEN coordinates real-world tasks for individuals, families and businesses in supported locations.</p>
           <div class="social-row">
-            <a class="social-icon" href="https://instagram.com/midmenexecutionnetwork" target="_blank" rel="noopener" aria-label="MIDMEN on Instagram">
+            <a class="social-icon" href="https://www.instagram.com/midmen.co" target="_blank" rel="noopener" aria-label="MIDMEN on Instagram">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
             </a>
             <a class="social-icon" href="https://facebook.com/midmenexecutionnetwork" target="_blank" rel="noopener" aria-label="MIDMEN on Facebook">
