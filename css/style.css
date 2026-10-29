@@ -505,8 +505,9 @@ section { padding: 64px 0; }
 .field-error { color: var(--error); font-size: 0.8rem; margin-top: 6px; display: none; }
 .field.has-error .field-error { display: block; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.phone-field { display: flex; gap: 10px; }
-.phone-field select { flex: 0 0 110px; }
+.phone-field { display: flex; flex-direction: column; gap: 10px; }
+.phone-field select,
+.phone-field input { width: 100%; }
 .upload-zone {
   border: 1.5px dashed var(--border);
   border-radius: var(--radius-sm);
