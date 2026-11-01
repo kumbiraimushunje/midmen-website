@@ -47,13 +47,9 @@ step required — just open and edit). The footer is injected by
    - `hello@midmen.co` (footer, contact page, privacy/terms) is the
      single address used for support, forms and general correspondence
      — confirm the mailbox is actually live on the domain before launch.
-   - WhatsApp was deliberately removed as a contact route (footer,
-     Contact page, error-fallback message) per the
-     `MIDMEN_Website_Corrections_and_Interim_Legal_Pages` brief: "do not
-     present an unverified WhatsApp number as an active contact route."
-     Add it back once a real MIDMEN WhatsApp Business number exists —
-     search the repo for the prior commit that removed it for the exact
-     markup to restore.
+   - WhatsApp Support (`+263 79 059 8000`, footer, Contact page,
+     error-fallback message) is the confirmed real MIDMEN WhatsApp
+     Business number — done.
    - Instagram, Facebook and LinkedIn in the footer (`js/footer.js`) are
      the real, confirmed official accounts — done.
    - Privacy Policy, Terms of Use and Cookie Notice are fully drafted

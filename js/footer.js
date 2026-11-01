@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <ul class="footer-contact">
             <li>Harare, Zimbabwe</li>
             <li><a href="mailto:hello@midmen.co">hello@midmen.co</a></li>
+            <li><a href="https://wa.me/263790598000" target="_blank" rel="noopener">WhatsApp Support</a></li>
           </ul>
         </div>
       </div>
